@@ -1,30 +1,30 @@
-// example 1
-var input = prompt('How many inches of rain fell?', '30');
+let rain = prompt ("How many inches of rain fell?");
 
-var input = prompt('Did you use fertilizer?', 'Yes');
-var total = Having too much rain subtracted 10% from 50, leaving 45. Then premium fertilizer
-added 15%, to 45, which is 51.75.;
-for  (var i = 0; i<input; i ++) {
-total = total + 1;
-} 
-console.log("The total is:" + total);
+let inches = "*"
+console.log("Rainfall:" + inches.repeat(rain);
+            
+let yield = 50
+if (rain >=20 {
+     yield = yield*.9
+}
+if (rain < 10) {
+    yield = yield*.8
+}
 
-// example 2
-var input= prompt("How many inches of rain fell?");
+    let fertilizer = prompt ("Did you use fertilizer?"); 
+    if (fertilizer === "no") {
 
-if (input === "8"){
-    var answer= prompt("Did you use fertilizer?");
-    if (answer2 === "The yield should be 40 bushels per acre."){
-        do {
-            var answer3 = prompt("8");
-            var question = prompt("Did you use fertilizer?");
-            var answers = answer2;
-            console.log(answers);
-        }
-        while(question === "yes");
-    }
-    else {
-        console.log(answer);
+        console.log("The yield should be" + yield + " bushels per acre.") 
+  }
+
+    if (fertilizer === "yes") {
+        var type = prompt ("Did you use premium or regular fertilizer?");      
     }
 
+if (type === "premium") {
+    yield = yield*1.15;
+    console.log("the yield should be " +yield+ "bushels per acre.")
+
+} else {
+    yield = yield*1.10
 }
